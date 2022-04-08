@@ -1,0 +1,86 @@
+header, .menufixed
+	nav ul
+		display: flex
+		width: 100%
+		li
+			position: relative
+			overflow: hidden
+			display: flex
+			justify-items: center
+			a
+				padding: 0.5rem 1rem
+				text-align: center
+				font-family: altomedium
+				text-transform: uppercase
+				font-size: 0.8rem
+				position: relative
+				&::after
+					content: ''
+					position: absolute
+					width: 0%
+					bottom: 1px
+					height: 2px
+					left: 0px
+					background: white
+					transition: all 0.2s ease-in-out
+				&:hover
+					&::after
+						width: 100%
+						// border-bottom: 1px white solid
+			.sub-menu
+				position: absolute
+				background: $primary
+				display: flex
+				left: 0px
+				flex-direction: column
+				max-height: 0px
+				min-width: 11rem
+				top: 30px
+				transition: all 0.1s ease-in-out
+			&:hover
+				overflow: visible
+				.sub-menu
+					max-height: 30rem
+					border-radius: 5px
+					z-index: 25
+					li
+						background: $primary
+						display: flex
+						a
+							color: white
+							width: 100%
+							height: 100%
+							padding-left: 1rem
+							padding-right: 1rem
+							text-align: center
+							font-size: 0.7rem
+						&:hover
+							filter: brightness(1.2)
+		li.menu_pruebalo
+			margin-left: auto
+		li.menu_ingreso
+			overflow: visible
+			border: 1px white solid
+			padding: 0px 10px
+			text-align: center
+			border-radius: 15px
+			min-width: 0
+			a
+				padding: 0
+		li.current-menu-item
+			color: $primary
+header.homepage
+	background: transparent
+	position: absolute
+	width: 100%
+	z-index: 15
+.fixed
+	transform: translateY(-100%)
+.fixed.active
+	transform: translateY(0)
+.menufixed
+	li.current-menu-item
+		a
+			color: $primary
+			background: white
+			border-radius: 1px

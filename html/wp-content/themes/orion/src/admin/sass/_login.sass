@@ -1,0 +1,40 @@
+
+.login.login-action-login.wp-core-ui
+	background: $secondary
+#login
+	background: $primary
+	padding: 10px
+	border-radius: 0px 0px 5px 5px
+	box-shadow: 2px 2px 6px #424242
+	a
+		color: white!important
+	h1 a
+		width: 160px
+
+form#loginform
+	background: transparent!important
+	border-radius: 5px
+	box-shadow: none
+	label
+		color: white!important
+
+		#wp-submit
+			background: $primary!important
+			border-color: $primary!important
+			transition: all 0.1s ease-in-out
+			text-shadow: none!important
+			box-shadow: 2px 2px 3px #cccccc
+			&:hover
+				background: darken($primary,20%)!important
+				border-color: darken($primary,20%)!important
+				transform: translateY(1px)
+
+		input
+			border: 0px
+			border-bottom: 1px #cecece solid
+			background: transparent
+			box-shadow: none
+			&:focus
+				border-bottom: 1px $primary solid
+		input[type="checkbox"]
+			border: 1px #cecece solid

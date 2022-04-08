@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="82.447" height="82.447" viewBox="0 0 82.447 82.447">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.5" x2="0" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3b4a72"/>
+      <stop offset="0.123" stop-color="#3e5072"/>
+      <stop offset="0.297" stop-color="#486272"/>
+      <stop offset="0.5" stop-color="#598173"/>
+      <stop offset="0.725" stop-color="#70aa74"/>
+      <stop offset="0.967" stop-color="#8de075"/>
+      <stop offset="1" stop-color="#92e876"/>
+    </linearGradient>
+  </defs>
+  <g id="icon_check_respaldo" transform="translate(-4786.039 -5830.114)">
+    <circle id="Ellipse_9" data-name="Ellipse 9" cx="41.223" cy="41.223" r="41.223" transform="translate(4786.039 5830.114)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

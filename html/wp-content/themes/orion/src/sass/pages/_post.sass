@@ -1,0 +1,188 @@
+.post#page
+	margin-top: -82px
+	position: relative
+	overflow: hidden
+	z-index: 5
+	.superior2
+		position: relative
+		height: 380px
+		background: $primary
+		z-index: -1
+		display: flex
+		justify-content: center
+		align-items: center
+		flex-direction: column
+		@media (max-width: 760px)
+			height: auto
+			padding-top: 60px
+			.contenedor
+				margin: auto
+				padding-top: 30px
+				display: flex
+				justify-content: space-around
+				align-items: flex-end
+				flex-direction: row
+				max-width: 900px
+				margin-bottom: 30px
+				@media (max-width: 760px)
+					margin-top: 40px
+					width: 90%
+					margin: auto
+					display: flex
+					justify-content: center
+					align-items: center
+					flex-direction: column
+					img
+						@media (max-width: 760px)
+							width: 100%
+						.tx
+							width: 100%
+							@media (max-width: 760px)
+								width: 100%
+								margin-top: 10px
+								display: flex
+								justify-content: center
+								align-items: flex-start
+								flex-direction: column
+
+								.t
+									font-family: altobold
+									font-size: 1.8em
+									max-width: 500px
+									color: white
+								.row, .row2
+									display: flex
+									justify-content: flex-start
+									align-items: center
+									flex-direction: row
+									font-size: 0.8em
+									margin: 10px 0px
+									.date
+										color: white
+										.cat
+											margin-left: 10px
+											color: $secondary
+											font-family: altobold
+										.thumb
+											width: 50px
+											margin-right: 15px
+											height: 50px
+											img
+												width: 100%
+												height: 100%
+												border-radius: 50%
+										.name
+											font-family: altobold
+											color: white
+								.row2
+									display: flex
+									justify-content: flex-start
+									align-items: flex-start
+									flex-direction: row
+									@media (max-width: 760px)
+										display: flex
+										justify-content: flex-start
+										align-items: flex-end
+										flex-direction: row
+										order: -1
+						.int
+							width: 100%
+							height: 200px
+							overflow: hidden
+							display: flex
+							justify-content: flex-end
+							align-items: center
+							flex-direction: row
+							@media (max-width: 760px)
+								padding-bottom: 20px
+								img
+									width: auto
+									height: 100%
+		.icond
+			position: absolute
+			left: -78px
+			top: 252px
+			width: 200px
+			z-index: -1
+			@media (max-width: 760px)
+				width: 120px
+				left: -45px
+				top: 337px
+		.iconu
+			position: absolute
+			right: -78px
+			bottom: 0px
+			width: 200px
+			z-index: -1
+		.blog
+			.inferior
+				margin-top: 30px
+				.container
+					display: flex
+					justify-content: center
+					align-items: flex-start
+					flex-direction: row
+					max-width: 900px
+					@media (max-width: 760px)
+						display: flex
+						justify-content: center
+						align-items: center
+						flex-direction: column
+						width: 90%
+						.left
+							margin: 30px 0px
+							width: 70%
+							width: 100%
+							@media (max-width: 760px)
+								width: 100%
+								.content
+									iframe
+										@media (max-width: 760px)
+											width: 100%!important
+											p
+												line-height: 1.8em
+												img
+													max-width: 100%
+													height: auto
+												ul
+													list-style: disc
+													margin: 40px 0px
+													li
+														line-height: 2.1em
+										.rrss
+											display: flex
+											justify-content: flex-start
+											align-items: center
+											flex-direction: row
+											margin-top: 90px
+											margin-bottom: 30px
+											img
+												width: 30px
+												margin: 0px 10px
+												transition: all 0.2s
+												cursor: pointer
+												&:hover
+													filter: brightness(0.8) contrast(1.1)
+												p
+													margin-left: 40px
+													font-size: 0.8em
+								.right
+									width: 30%
+									display: none
+									@media (max-width: 760px)
+										width: 80%
+										.pub
+											background: black
+											background: #efefef
+											display: flex
+											justify-content: center
+											align-items: center
+											flex-direction: column
+											color: white
+											font-family: altobold
+											text-align: center
+											min-height: 400px
+											margin: 10px 30px
+											margin-right: 0px
+											@media (max-width: 760px)
+												display: none

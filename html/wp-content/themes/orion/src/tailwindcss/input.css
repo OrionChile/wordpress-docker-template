@@ -1,0 +1,22 @@
+/* @font-face {
+	font-family: 'alto';
+	src: url('./../../fonts/MarkLight.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'altobold';
+	src: url('./../../fonts/MarkBold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'altomedium';
+	src: url('./../../fonts/MarkMedium.otf') format('opentype');
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .btn-light {
+	@apply bg-gray-800 border-2 border-white rounded-full py-2 px-8 text-white transform transition-all hover:-translate-y-1 hover:bg-white hover:text-black text-xl flex justify-center items-center opacity-70 hover:opacity-100;
+} */

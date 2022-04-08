@@ -1,0 +1,21 @@
+{
+	"name": "orion/startertheme",
+	"description": "Starter theme for Wordpress with composer and webpack",
+	"type": "project",
+	"license": "GPL",
+	"authors": [
+		{
+			"name": "Patricio Gonzalez",
+			"email": "patote.gonzalez@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"polarising/bcrypt": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"Inc\\": "./controllers"
+		}
+	}
+}

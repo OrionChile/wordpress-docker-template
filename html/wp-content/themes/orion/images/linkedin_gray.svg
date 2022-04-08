@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <g id="linkedin_gray" transform="translate(-525 -1130)">
+    <g id="Elipse_1" data-name="Elipse 1" transform="translate(525 1130)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="17" cy="17" r="17" stroke="none"/>
+      <circle cx="17" cy="17" r="16.5" fill="none"/>
+    </g>
+    <g id="Grupo_10" data-name="Grupo 10" transform="translate(-385.514 -4166.955)">
+      <g id="Grupo_9" data-name="Grupo 9">
+        <rect id="Rectángulo_23" data-name="Rectángulo 23" width="3.096" height="10.94" transform="translate(920.812 5310.425)" fill="#707070"/>
+        <path id="Trazado_11" data-name="Trazado 11" d="M922.345,5308.992a2.028,2.028,0,1,0-1.831-2.019A1.932,1.932,0,0,0,922.345,5308.992Z" fill="#707070"/>
+      </g>
+      <path id="Trazado_12" data-name="Trazado 12" d="M928.858,5315.622c0-1.538.647-2.454,1.887-2.454,1.138,0,1.685.879,1.685,2.454v5.743h3.082v-6.927c0-2.93-1.519-4.347-3.639-4.347a3.478,3.478,0,0,0-3.015,1.808v-1.474h-2.97v10.94h2.97Z" fill="#707070"/>
+    </g>
+  </g>
+</svg>

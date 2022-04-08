@@ -1,0 +1,33 @@
+@import './colors'
+@import './header/header'
+@import './fonts'
+@import './footer'
+@import './swiperjs'
+@import './interactions/interactions'
+@import './pages/pages'
+@import './_pruebalofixed'
+@import './_solicitademo'
+
+::-webkit-scrollbar
+	width: 12px
+	background: #ededed
+
+::-webkit-scrollbar-thumb
+	background: gray
+	border-radius: 2px
+
+body
+	font-family: alto
+
+.pagination
+	.page-numbers
+		border: 1px solid #ececec
+		padding: 5px
+		font-size: 0.8em
+		transition: all 0.1s
+		&:hover
+			background: lighten($primary, 20%)
+			color: white
+	.page-numbers.current
+		background: $primary
+		color: white

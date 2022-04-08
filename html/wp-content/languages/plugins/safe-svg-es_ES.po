@@ -1,0 +1,57 @@
+# Translation of Plugins - Safe SVG - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Safe SVG - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-04-07 04:13:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-rc.3\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Safe SVG - Stable (latest release)\n"
+
+#. Description of the plugin
+msgid "Enable SVG uploads and sanitize them to stop XML/SVG vulnerabilities in your WordPress website"
+msgstr "Permite las subidas de SVG y sanéalas para detener las vulnerabilidades XML/SVG en tu web WordPress"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/safe-svg/"
+msgstr "https://es.wordpress.org/plugins/safe-svg/"
+
+#: safe-svg.php:236
+msgid "Large"
+msgstr "Grande"
+
+#: safe-svg.php:235
+msgid "Medium"
+msgstr "Mediana"
+
+#: safe-svg.php:234
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: safe-svg.php:233
+msgid "Full Size"
+msgstr "Tamaño completo"
+
+#: safe-svg.php:147
+msgid "Sorry, this file couldn't be sanitized so for security reasons wasn't uploaded"
+msgstr "Lo siento, pero este archivo no se ha podido sanear, por lo que, por razones de seguridad, no ha sido subido."
+
+#. translators: %1$s is the command that needs to be run.
+#: safe-svg.php:33
+msgid "You appear to be running a development version of Safe SVG. Please run %1$s in order for things to work properly."
+msgstr "Parece que estás ejecutando una versión de desarrollo de Safe SVG. Por favor, ejecuta %1$s para que todo funcione correctamente."
+
+#. Author URI of the plugin
+msgid "https://10up.com"
+msgstr "https://10up.com"
+
+#. Author of the plugin
+msgid "10up"
+msgstr "10up"
+
+#. Plugin Name of the plugin
+msgid "Safe SVG"
+msgstr "Safe SVG"

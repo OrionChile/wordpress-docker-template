@@ -1,0 +1,26 @@
+#THEME ORION
+html/wp-content/themes/orion/node_modules
+html/wp-content/themes/orion/vendor
+html/wp-content/themes/orion/dist
+html/wp-content/themes/orion/src/tailwindcss/output.css
+html/wp-content/themes/orion/package-lock.json
+html/wp-content/themes/orion/tailwind.output.css
+
+#THEME notequemes2022
+html/wp-content/themes/notequemes2022/node_modules
+html/wp-content/themes/notequemes2022/vendor
+html/wp-content/themes/notequemes2022/dist
+html/wp-content/themes/notequemes2022/src/tailwindcss/output.css
+html/wp-content/themes/notequemes2022/package-lock.json
+html/wp-content/themes/notequemes2022/tailwind.output.css
+
+
+# WORDPRESS
+html/wp-content/uploads/
+
+#MAC
+.DS_Store
+html/wp-content/wflogs
+/html/wp-content/wflogs
+/html/wp-content.zip
+*.zip

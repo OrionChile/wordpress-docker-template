@@ -1,0 +1,16 @@
+.footer_menu
+	ul
+		display: flex
+		width: 100%
+		li a
+			padding: 0px 0.8rem
+			font-size: 0.8rem
+			&:hover
+				font-weight: bold
+			@media (max-width: 1700px)
+				font-size: 0.7rem
+		li
+			@media (max-width: 760px)
+				margin: 0.5rem 0rem
+		li.current-item
+			color: $primary
